@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Con esta pagina estamos aprendiendo accesibilidad">
+    <title>Proyecto</title>
+    <style>
+        a:focus, button:focus {
+            outline: 3px solid #000000;
+            outline-offset: 3px;
+        }
+        body {
+            text-align: center;
+            background-color: antiquewhite;
+            color: #212121;
+            font-family: sans-serif;
+        }
+    </style>
+    </style>
 </head>
 <body>
-    <h1>Johan Jairo Cruz Huaman</h1>
-    <img src="instituto.jpeg" alt="instituto trujillo" height="200" width="200">
+
+    <header>
+        <h1>Mi Proyecto</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contactos">Contactos</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Nuestros Productos</h2>
+        <img src="instituto.jpeg" alt="Instituto Trujillo Publico" height="200" width="250">
+        <br>
+        <button>Comprar aquí</button>
+
+        <form action="">
+            <label for="usuario"></label>
+            <input type="text" placeholder="Ingrese usuario" name="usuario">
+
+            <label for="contraseña"></label>
+            <input type="text" placeholder="Ingrese contraseña" name="contraseña">
+            <button>Ingresar</button>
+        </form>
+
+        <a href="#Nosotros.html">Ir a Nosotros</a>
+    </main>
+
+    <footer>
+        <p>Instituto Trujillo</p>
+    </footer>
+
 </body>
 </html>
